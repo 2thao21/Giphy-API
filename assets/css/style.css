@@ -1,0 +1,18 @@
+body{
+    
+}
+
+.cars, #carMakesSubmit{
+    background-color: lightseagreen;
+}
+
+#inputBox{
+    float: right;
+    border-style: solid;
+}
+
+#carInput{
+    /* border-style: dotted lightseagreen; */
+    font-family: cursive;
+    font-size: 26px;
+}

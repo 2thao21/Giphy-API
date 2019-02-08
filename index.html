@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GifTastic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    
+</head>
+<body>
+    <div class = container>
+        <h1 id="carTitles">Nice Cars You Got There</h1>
+
+    
+        <div id="buttonsWrapper">
+            <!-- <button id = buttonsOutline type="button" class="btn btn-outline-success"></button> -->
+        </div>
+    
+        <div id="inputBox">
+            <form id="carForm">
+                <label id="carInput">Add Car Make</label>
+                <input type="text" id="carMakes"><br>
+
+                <input type="submit" id="carMakesSubmit" value = "Submit">
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                    <div></div>
+            </div>
+            <div class="col-md-3">
+                <div id="gifsHere"></div>
+            </div>
+            <div class="col-md-3">
+                    <div></div>
+            </div>
+            <div class="col-md-3">
+                    <div></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/main.js"></script>    
+</body>
+</html>
