@@ -1,5 +1,32 @@
 body{
-    
+    /* background: url(../images/garage.jpg); */
+    background-color: lightslategray;
+}
+
+#buttonsWrapper{
+    padding-bottom: 50px;
+}
+
+#titleButton{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+#hereLiesGifs{
+    background-color: lightgreen;
+    margin-top: 20px;
+    padding-top: 82px;
+    margin-bottom: 20px;
+}
+
+#inputBox{
+    background-color: rosybrown;
+    margin-top: 20px;
+}
+
+#carTitle{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
 .cars, #carMakesSubmit{
@@ -13,6 +40,11 @@ body{
 
 #carInput{
     /* border-style: dotted lightseagreen; */
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 26px;
+    /* text-decoration: underline; */
 }
+
+
+
+/* Didn't get to spend too much time to style webpage. :(  */

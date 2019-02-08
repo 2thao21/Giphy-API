@@ -11,35 +11,37 @@
 </head>
 <body>
     <div class = container>
-        <h1 id="carTitles">Nice Cars You Got There</h1>
-
-    
-        <div id="buttonsWrapper">
+        <div id="titleButton">
+            <h1 id="carTitle">Nice Cars You Got There</h1>
+        
+            <div id="buttonsWrapper"></div>
             <!-- <button id = buttonsOutline type="button" class="btn btn-outline-success"></button> -->
         </div>
     
         <div id="inputBox">
             <form id="carForm">
-                <label id="carInput">Add Car Make</label>
+                <label id="carInput">Add Car Make: </label>
                 <input type="text" id="carMakes"><br>
 
                 <input type="submit" id="carMakesSubmit" value = "Submit">
             </form>
         </div>
-        <div class="row">
-            <div class="col-md-3">
-                    <div></div>
-            </div>
-            <div class="col-md-3">
-                <div id="gifsHere"></div>
-            </div>
-            <div class="col-md-3">
-                    <div></div>
-            </div>
-            <div class="col-md-3">
-                    <div></div>
+        <div id="hereLiesGifs">
+            <div class="row">
+                <div class="col-md-3">
+                        <div></div>
+                </div>
+                <div class="col-md-3">
+                    <div id="gifsHere"></div>
+                </div>
+                <div class="col-md-3">
+                        <div></div>
+                </div>
+                <div class="col-md-3">
+                        <div></div>
             </div>
         </div>
+    </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
